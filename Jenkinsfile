@@ -7,7 +7,7 @@ stages
     }
 stage('build')
 {
-buildInfo = rtGradle.run rootDir: "F:\Work Space\IntelliJ Work Space\startup-demo\", buildFile: 'build.gradle', tasks: 'clean artifactoryPublish'
+buildInfo = rtGradle.run rootDir: "F:\\Work Space\IntelliJ Work Space\startup-demo\", buildFile: 'build.gradle', tasks: 'clean artifactoryPublish'
 }
 stage('deploy')
 {
