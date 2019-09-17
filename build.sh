@@ -1,6 +1,5 @@
 #!/bin/bash
 
- cd C:\Program Files (x86)\Jenkins\workspace\startup-demo-1
 
 sleep 2
 
