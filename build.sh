@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd C:\Program Files (x86)\Jenkins\workspace\startup-demo-1
+ cd C:\Program Files (x86)\Jenkins\workspace\startup-demo-1
 
 sleep 2
 
@@ -8,12 +8,12 @@ echo "run gradle clean"
 
 sleep 2
 
-$./gradlew clean
+./gradlew clean
 
 echo "run gradle build"
 
 sleep 2
 
-$./gradlew build
+./gradlew build
 
 sleep 10
