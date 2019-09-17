@@ -1,3 +1,9 @@
+#!/bin/bash
+
+echo "run gradle clean"
+
 ./gradlew clean
-sleep 10
+
+echo "run gradle build"
+
 ./gradlew build
