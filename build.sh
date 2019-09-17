@@ -7,3 +7,5 @@ echo "run gradle clean"
 echo "run gradle build"
 
 ./gradlew build
+
+sleep 10
