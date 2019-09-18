@@ -3,5 +3,5 @@ applications:
   - name: startup-demo
     instances: 1
     memory: 800m
-    path: F:\Work Space\IntelliJ Work Space\startup-demo\build\libs\startup-demo-0.0.1-SNAPSHOT.jar
+    path: F:\Work Space\WorkSpace2\startup-demo\build\libs\startup-demo-0.0.1-SNAPSHOT.jar
 
