@@ -9,6 +9,12 @@ stage('build')
 {
 buildInfo = rtGradle.run rootDir: "F:\\Work Space\IntelliJ Work Space\startup-demo\", buildFile: 'build.gradle', tasks: 'clean artifactoryPublish'
 }
+stage('UCD'){
+step
+
+([$class: 'UCDeployPublisher', altUser: [altPassword: <object of type hudson.util.Secret>, altUsername: ''], component: [componentName: '', componentTag: '', delivery: [$class: 'Push', baseDir: '', fileExcludePatterns: '', fileIncludePatterns: '**/*', pushDescription: '', pushIncremental: false, pushProperties: '', pushVersion: '']], deploy: [deployApp: '', deployDesc: 'Requested from Jenkins', deployEnv: '', deployOnlyChanged: true, deployProc: '', deployReqProps: '', deployVersions: '', skipWait: false], siteName: 'https://udeploy-server:8444/'])
+
+}
 stage('deploy')
 {
 steps {
