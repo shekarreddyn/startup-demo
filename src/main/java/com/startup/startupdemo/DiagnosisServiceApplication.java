@@ -10,6 +10,6 @@ public class DiagnosisServiceApplication {
 
     @GetMapping("/getDiagnosis")
     public String getDoctorService() {
-        return " Niku kottha pelli match vachindi! :)..";
+        return " SriNidhi Niku kottha pelli match vachindi! :)..";
     }
 }
